@@ -1,0 +1,1 @@
+"""AI Logs Analyzer application."""

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "ai-logs-analyzer": {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "api",
+        "python",
+        "-m",
+        "app.log_analyzer.mcp.server"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+2026-10-17 12:20:11 - payments.api - [INFO] POST /payments trace_id=tr-101 status=accepted
+2026-10-17 12:20:12 - payments.gateway - [WARNING] Gateway latency above threshold trace_id=tr-101 latency_ms=1840
+2026-10-17 12:20:14 - payments.worker - [ERROR] TimeoutError: payment provider did not respond trace_id=tr-101
+2026-10-17 12:20:15 - payments.api - [ERROR] Payment request failed trace_id=tr-101 payment_id=pay-7781
+2026-10-17 12:22:01 - payments.api - [INFO] POST /payments trace_id=tr-102 status=accepted
+2026-10-17 12:22:02 - payments.gateway - [WARNING] Gateway latency above threshold trace_id=tr-102 latency_ms=2130
+2026-10-17 12:22:04 - payments.worker - [ERROR] TimeoutError: payment provider did not respond trace_id=tr-102
+2026-10-17 12:22:05 - payments.api - [ERROR] Payment request failed trace_id=tr-102 payment_id=pay-7782
